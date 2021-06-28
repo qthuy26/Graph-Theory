@@ -1,0 +1,215 @@
+push(&frontier, 1);
+stack = {1}
+Lan lap 1:
+while(!empty(&frontier)){ == true
+    x = 1;  stack = {};
+    if(mark[x] != 0)
+        continue;
+    Duyet 1;    // mark[1] = 1;
+    list = neighbors(G, 1); // list = {4, 5}
+    for cac dinh ke v cua x
+        v = 4:
+        if(4 chua duoc duyet)
+            Dua 4 vao ngan xep
+        v = 5:
+        if(5 chua duoc duyet)
+            Dua 5 vao ngan xep
+}
+
+
+Lan lap 2:
+stack = {4, 5}
+while(!empty(&frontier)){ == true
+    x = 5;  stack = {4};
+    if(mark[5] != 0)
+        continue;
+    Duyet 5;    // mark[5] = 1;
+    list = neighbors(G, 5); // list = {1, 4, 8}
+    for cac dinh ke v cua x
+        v = 1:
+        if(1 chua duoc duyet)
+            // Dua 1 vao ngan xep
+        v = 4:
+        if(4 chua duoc duyet)
+            Dua 4 vao ngan xep
+        v = 8:
+        if(8 chua duoc duyet)
+            Dua 8 vao ngan xep
+}
+
+
+Lan lap 3:
+stack = {4, 4, 8}
+while(!empty(&frontier)){ == true
+    x = 8;  stack = {4, 4};
+    if(mark[8] != 0)
+        continue;
+    Duyet 8;    // mark[8] = 1;
+    list = neighbors(G, 8); // list = {2, 4, 5}
+    for cac dinh ke v cua x
+        v = 2:
+        if(2 chua duoc duyet)
+            Dua 2 vao ngan xep
+        v = 4:
+        if(4 chua duoc duyet)
+            Dua 4 vao ngan xep
+        v = 5:
+        if(5 chua duoc duyet)
+            // Dua 5 vao ngan xep
+}
+
+
+Lan lap 4:
+stack = {4, 4, 2, 4}
+while(!empty(&frontier)){ == true
+    x = 4;  stack = {4, 4, 2};
+    if(mark[4] != 0)
+        continue;
+    Duyet 4;    // mark[4] = 1;
+    list = neighbors(G, 4); // list = {1, 2, 5, 8}
+    for cac dinh ke v cua x
+        v = 1:
+        if(1 chua duoc duyet)
+            // Dua 1 vao ngan xep
+        v = 2:
+        if(2 chua duoc duyet)
+            Dua 2 vao ngan xep
+        v = 5:
+        if(5 chua duoc duyet)
+            // Dua 5 vao ngan xep
+        v = 8:
+        if(8 chua duoc duyet)
+            // Dua 8 vao ngan xep
+}
+
+
+Lan lap 5:
+stack = {4, 4, 2, 2}
+while(!empty(&frontier)){ == true
+    x = 2;  stack = {4, 4, 2};
+    if(mark[2] != 0)
+        continue;
+    Duyet 2;    // mark[2] = 1;
+    list = neighbors(G, 2); // list = {3, 4, 6, 7, 8}
+    for cac dinh ke v cua x
+        v = 3:
+        if(3 chua duoc duyet)
+            Dua 3 vao ngan xep
+        v = 4:
+        if(4 chua duoc duyet)
+            // Dua 4 vao ngan xep
+        v = 6:
+        if(6 chua duoc duyet)
+            Dua 6 vao ngan xep
+        v = 7:
+        if(7 chua duoc duyet)
+            Dua 7 vao ngan xep
+        v = 8:
+        if(8 chua duoc duyet)
+            // Dua 8 vao ngan xep
+}
+
+
+Lan lap 6:
+stack = {4, 4, 2, 3, 6, 7}
+while(!empty(&frontier)){ == true
+    x = 7;  stack = {4, 4, 2, 3, 6};
+    if(mark[7] != 0)
+        continue;
+    Duyet 7;    // mark[7] = 1;
+    list = neighbors(G, 7); // list = {2, 3}
+    for cac dinh ke v cua x
+        v = 2:
+        if(2 chua duoc duyet)
+            // Dua 2 vao ngan xep
+        v = 3:
+        if(3 chua duoc duyet)
+            Dua 3 vao ngan xep
+}
+
+
+Lan lap 7:
+stack = {4, 4, 2, 3, 6, 3}
+while(!empty(&frontier)){ == true
+    x = 3;  stack = {4, 4, 2, 3, 6};
+    if(mark[3] != 0)
+        continue;
+    Duyet 3;    // mark[3] = 1;
+    list = neighbors(G, 3); // list = {2, 6, 7}
+    for cac dinh ke v cua x
+        v = 2:
+        if(2 chua duoc duyet)
+            // Dua 2 vao ngan xep
+        v = 6:
+        if(6 chua duoc duyet)
+            Dua 6 vao ngan xep
+        v = 7:
+        if(7 chua duoc duyet)
+            // Dua 7 vao ngan xep
+}
+
+
+Lan lap 8:
+stack = {4, 4, 2, 3, 6, 6}
+while(!empty(&frontier)){ == true
+    x = 6;  stack = {4, 4, 2, 3, 6};
+    if(mark[6] != 0)    
+        continue;
+    Duyet 6;    // mark[6] = 1;
+    list = neighbors(G, 6); // list = {2, 3}
+    for cac dinh ke v cua x
+        v = 2:
+        if(2 chua duoc duyet)
+            // Dua 2 vao ngan xep
+        v = 3:
+        if(3 chua duoc duyet)
+            // Dua 3 vao ngan xep
+}
+
+Lan lap 9:
+stack = {4, 4, 2, 3, 6}
+while(!empty(&frontier)){ == true
+    x = 6;  stack = {4, 4, 2, 3};
+    if(mark[6] != 0)
+        continue;
+}
+
+Lan lap 10:
+stack = {4, 4, 2, 3}
+while(!empty(&frontier)){ == true
+    x = 3;  stack = {4, 4, 2};
+    if(mark[3] != 0)
+        continue;
+}
+
+Lan lap 11:
+stack = {4, 4, 2}
+while(!empty(&frontier)){ == true
+    x = 2;  stack = {4, 4};
+    if(mark[2] != 0)
+        continue;
+}
+
+Lan lap 12:
+stack = {4, 4}
+while(!empty(&frontier)){ == true
+    x = 4;  stack = {4};
+    if(mark[4] != 0)
+        continue;
+}
+
+Lan lap 13:
+stack = {4}
+while(!empty(&frontier)){ == true
+    x = 4;  stack = {};
+    if(mark[4] != 0)
+        continue;
+}
+
+Lan lap 14:
+stack = {}
+while(!empty(&frontier)) == false
+    // Ket thuc vong lap
+
+Cac dinh da duoc duyet
+Thu tu duyet cac dinh: 1 5 8 4 2 7 3 6

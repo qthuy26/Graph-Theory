@@ -1,0 +1,185 @@
+push(&frontier, 1);
+queue = {1}
+Danh dau da duyet 1
+
+Lan lap 1:
+while(!empty(&frontier)){ == true
+    x = 1;  queue = {};
+    Duyet 1
+    list = neighbors(G,  1); // list = {4, 5}
+    for cac dinh ke y cua x
+        y = 4:
+        if(4 chua duoc duyet)
+            Danh dau da duyet 4
+            Dua 4 vao hang doi
+        y = 5:
+        if(5 chua duoc duyet)
+            Danh dau da duyet 5
+            Dua 5 vao hang doi
+}
+
+queue = {4, 5}
+Lan lap 2:
+while(!empty(&frontier)){ == true
+    x = 4;  queue = {5};
+    Duyet 4
+    list = neighbors(G, 4); // list = {1, 2, 5, 8}
+    for cac dinh ke y cua x
+        y = 1:
+        if(1 chua duoc duyet)
+            //  Danh dau da duyet 1
+            //  Dua 1 vao hang doi
+        y = 2:
+        if(2 chua duoc duyet)
+            Danh dau da duyet 2
+            Dua 2 vao hang doi
+        y = 5:
+        if(5 chua duoc duyet)
+            //  Danh dau da duyet 5
+            //  Dua 5 vao hang doi
+        y = 8:  
+        if(8 chua duoc duyet)
+            Danh dau da duyet 8
+            Dua 8 vao hang doi
+}
+
+
+queue = {5, 2, 8}
+Lan lap 3:
+while(!empty(&frontier)){ == true
+    x = 5;  queue = {2, 8};
+    Duyet 5
+    list = neighbors(G, 5); // list = {1, 4, 8}
+    for cac dinh ke y cua x
+        y = 1:
+        if(1 chua duoc duyet)
+            //  Danh dau da duyet 1
+            //  Dua 1 vao hang doi
+        y = 4:
+        if(4 chua duoc duyet)
+            //  Danh dau da duyet 4
+            //  Dua 4 vao hang doi
+        y = 8:  
+        if(8 chua duoc duyet)
+            //  Danh dau da duyet 8
+            //  Dua 8 vao hang doi
+}
+
+
+queue = {2, 8}
+Lan lap 4:
+while(!empty(&frontier)){ == true
+    x = 2;  queue = {8};
+    Duyet 2
+    list = neighbors(G, 2); // list = {3, 4, 6, 7, 8}
+    for cac dinh ke y cua x
+        y = 3:
+        if(3 chua duoc duyet)
+            Danh dau da duyet 3
+            Dua 3 vao hang doi
+        y = 4:
+        if(4 chua duoc duyet)
+            //  Danh dau da duyet 4
+            //  Dua 4 vao hang doi
+        y = 6:
+        if(6 chua duoc duyet)
+            Danh dau da duyet 6
+            Dua 6 vao hang doi
+        y = 7:
+        if(7 chua duoc duyet)
+            Danh dau da duyet 7
+            Dua 7 vao hang doi
+        y = 8:  
+        if(8 chua duoc duyet)
+            //  Danh dau da duyet 8
+            //  Dua 8 vao hang doi
+}
+
+
+queue = {8, 3, 6, 7}
+Lan lap 5:
+while(!empty(&frontier)){ == true
+    x = 8;  queue = {3, 6, 7};
+    Duyet 8
+    list = neighbors(G, 8); // list = {2, 4, 5}
+    for cac dinh ke y cua x
+        y = 2:
+        if(2 chua duoc duyet)
+            //  Danh dau da duyet 2
+            //  Dua 2 vao hang doi
+        y = 4:
+        if(4 chua duoc duyet)
+            //  Danh dau da duyet 4
+            //  Dua 4 vao hang doi
+        y = 5:
+        if(5 chua duoc duyet)
+            //  Danh dau da duyet 5
+            //  Dua 5 vao hang doi
+}
+
+
+queue = {3, 6, 7}
+Lan lap 6:
+while(!empty(&frontier)){ == true
+    x = 3;  queue = {6, 7};
+    Duyet 3
+    list = neighbors(G, 3); // list = {2, 6, 7}
+    for cac dinh ke y cua x
+        y = 2:
+        if(2 chua duoc duyet)
+            //  Danh dau da duyet 2
+            //  Dua 2 vao hang doi
+        y = 6:
+        if(6 chua duoc duyet)
+            //  Danh dau da duyet 6
+            //  Dua 6 vao hang doi
+        y = 7:
+        if(7 chua duoc duyet)
+            //  Danh dau da duyet 7
+            //  Dua 7 vao hang doi
+}
+
+
+queue = {6, 7}
+Lan lap 7:
+while(!empty(&frontier)){ == true
+    x = 6;  queue = {7};
+    Duyet 6
+    list = neighbors(G, 6); // list = {2, 3}
+    for cac dinh ke y cua x
+        y = 2:
+        if(2 chua duoc duyet)
+            //  Danh dau da duyet 2
+            //  Dua 2 vao hang doi
+        y = 3:
+        if(3 chua duoc duyet)
+            //  Danh dau da duyet 3
+            //  Dua 3 vao hang doi
+}
+
+
+queue = {7}
+Lan lap 8:
+while(!empty(&frontier)){ == true
+    x = 7;  queue = {};
+    Duyet 7
+    list = neighbors(G, 7); // list = {2, 3}
+    for cac dinh ke y cua x
+        y = 2:
+        if(2 chua duoc duyet)
+            //  Danh dau da duyet 2
+            //  Dua 2 vao hang doi
+        y = 3:
+        if(3 chua duoc duyet)
+            //  Danh dau da duyet 3
+            //  Dua 3 vao hang doi
+}
+
+
+queue = {}
+Lan lap 9:
+while(!empty(&frontier)) == false
+    // Ket thuc vong lap
+
+Cac dinh da duoc duyet
+Thu tu duyet cac dinh: 1 4 5 2 8 3 6 7
